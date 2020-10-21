@@ -90,6 +90,23 @@ header {
 
 /* HOBBIES */
 
+.container {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  padding-top: 56.25%;
+}
+
+.responsive-iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+}
+
 .hobbies .lenguajes img {
   border-radius: 5%;
   z-index: 1;
@@ -121,4 +138,14 @@ header {
 .social-icons {
   margin: 4px;
   width: 40px;
+}
+
+@media only screen and (max-width: 992px) {
+  .line-dec-large {
+    width: 80% !important;
+  }
+
+  .page-section {
+    padding: 60px 10px;
+  }
 }
