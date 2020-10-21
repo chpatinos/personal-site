@@ -1,0 +1,124 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: rgb(73, 73, 73);
+  color: white;
+  font-size: larger;
+}
+
+.page-section {
+  padding: 60px;
+}
+
+.bg-alter {
+  background-color: rgb(100, 100, 100);
+}
+
+.section-title {
+  margin: 20px 0 50px 0;
+  text-align: center;
+}
+
+.section-title .line-dec {
+  width: 200px;
+  height: 3px;
+  background-color: #c0c0c0;
+  margin: 0 auto;
+}
+
+.section-title .line-dec-large {
+  width: 700px;
+  height: 3px;
+  background-color: #c0c0c0;
+  margin: 0 auto;
+}
+
+.section-content {
+  text-align: justify;
+}
+
+.card {
+  margin: 10px;
+  min-width: 250px;
+}
+
+.card-title {
+  margin-bottom: 25px;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column !important;
+  justify-content: center !important;
+}
+
+.card-project .card-title {
+  margin-bottom: 10px;
+}
+
+/* HEADER */
+
+header {
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("../img/banner.jpg");
+}
+
+/* NAVBAR */
+
+.navbar-brand .avatar {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+/* ABOUT */
+
+.profile {
+  border-radius: 50%;
+  z-index: 1;
+  width: 100%;
+  height: auto;
+  margin: 10px;
+  object-fit: cover;
+  max-width: 250px;
+  max-height: 250px;
+}
+
+/* HOBBIES */
+
+.hobbies .lenguajes img {
+  border-radius: 5%;
+  z-index: 1;
+  height: auto;
+  margin: 10px;
+  object-fit: cover;
+  max-width: 180px;
+  max-height: 100px;
+}
+
+.hobbies .tech img {
+  border-radius: 5%;
+  z-index: 1;
+  height: auto;
+  margin: 10px;
+  object-fit: cover;
+  width: 200px;
+  max-height: 100px;
+}
+
+/* INTERESTS */
+
+.interests p {
+  text-align: justify;
+}
+
+/* FOOTER */
+
+.social-icons {
+  margin: 4px;
+  width: 40px;
+}
